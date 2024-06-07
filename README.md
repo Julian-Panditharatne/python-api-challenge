@@ -35,11 +35,23 @@ This part of the challenge involves using Jupyter notebooks, geoViews Python lib
 
 ## Repository Files and Folders
 
-Besides this README file, there are
+Besides this README file and a gitignore file, there are nine other files and two folders:
+
+The folder, which is named *WeatherPy* contains 4 of the 9 files along with the other folder named *output_data*
 
 
 ---
 
 ## References
 
+*API reference — pandas 1.4.2 documentation*. (2024, April 10). Pandas Documentation. <https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api>
 
+Geoapify. (n.d.). *Places API | Developer Documentation | Geoapify*. Apidocs.geoapify.com. Retrieved June 1, 2024, from <https://apidocs.geoapify.com/docs/places/#api>
+
+Hunter, J., Dale, D., Firing, E., Droettboom, M., & Matplotlib development team. (n.d.-a). *API reference*. Matplotlib.org. Retrieved May 2024, from <https://matplotlib.org/devdocs/api/index.html>
+
+Hunter, J., Dale, D., Firing, E., Droettboom, M., & Matplotlib development team. (n.d.-b). *Examples*. Matplotlib.org. Retrieved May 2024, from <https://matplotlib.org/stable/gallery/index.html>
+
+OpenWeather. (n.d.). *Current weather data - OpenWeatherMap*. Openweathermap.org. Retrieved June 1, 2024, from <https://openweathermap.org/current>
+
+*User Guide — pandas 2.1.1 documentation*. (2024, April 10). Pandas Documentation. <https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide>
