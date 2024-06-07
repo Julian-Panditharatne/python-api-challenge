@@ -12,7 +12,7 @@ This part of the challenge involves creating a Python script to visualize the we
 The challenge is to create visuals in the following manner:
 
 1. Create a series of scatter plots to showcase the relationships between the following weather variables and latitude.
-    1. Temperature
+    1. Maximum Temperature
     2. Humidity
     3. Cloudiness
     4. Wind Speed
@@ -24,7 +24,7 @@ This part of the challenge involves using Jupyter notebooks, geoViews Python lib
 
 1. Create a map that displays a point for every city in the DataFrame that will contain all the weather and coordinates data collected in Part 1: WeatherPy; the size of the point should be the humidity in each city.
 2. Narrow down the DataFrame to find the following ideal weather conditions:
-    1. 21 <= max temperature <= 27.
+    1. 21 < max temperature < 27.
     2. wind speed < 4.5 m/s.
     3. 0% cloudiness.
 3. Create a new DataFrame to store the city, country, coordinates, and humidity.
@@ -37,8 +37,20 @@ This part of the challenge involves using Jupyter notebooks, geoViews Python lib
 
 Besides this README file and a gitignore file, there are nine other files and two folders:
 
-The folder, which is named *WeatherPy* contains 4 of the 9 files along with the other folder named *output_data*
+The folder, which is named *WeatherPy* contains four of the nine files along with the other folder named *output_data*
 
+- **VacationPy.ipynb**: The jupyter notebook file containing the script run to analyze the weather data collected from running the **WeatherPy.ipynb** script, along with the hotel data gathered using Geoapify API, and to create map visualizations using geoViews Python library.
+- **VacationPy_starter.ipynb**: The jupyter notebook file containing the starter code used in the main script file, **VacationPy.ipynb**.
+- **WeatherPy.ipynb**: The jupyter notebook file containing the script run to analyze and visualize weather data from OpenWeatherMap API, and output the collected data and some of the plots into the *output_data* folder.
+- **WeatherPy_starter.ipynb**: The jupyter notebook file containing the starter code used in the main script file, **WeatherPy.ipynb**.
+
+The *output_data* folder contains the other five files.
+
+- **Fig1.png**: image file of the scatter plot showcasing the relationships between City Latitudes and Maximum Temperatures.
+- **Fig2.png**: image file of the scatter plot showcasing the relationships between City Latitudes and Humidity Percentages.
+- **Fig3.png**: image file of the scatter plot showcasing the relationships between City Latitudes and Cloudiness Percentages.
+- **Fig4.png**: image file of the scatter plot showcasing the relationships between City Latitudes and Wind Speeds.
+- **cities.csv**: csv file of the city weather dataset created from the **WeatherPy.ipynb** script.
 
 ---
 
